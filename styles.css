@@ -46,5 +46,23 @@ body {
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
+
+}
+
+.second-hand {
+  background: red;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.min-hand {
+  width: 56%;
+  left: -6%;
+  transition-timing-function: ease-in-out;
+
+}
+
+.hour-hand {
+  left: 15.4%;
+  width:34.6%;
+  transition-timing-function: ease-in-out;
 }
