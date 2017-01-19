@@ -2,7 +2,7 @@ html {
   font-family:'helvetica neue';
   text-align: center;
   font-size: 10px;
-  background-image:url('sky-arkady-lifshits.jpg');
+  background-image:url('maxresdefault.jpg');
   background-size:cover;
   filter: blur(1px);
 }
@@ -18,7 +18,7 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border:20px solid white;
+  border:15px solid #00bfff;
   border-radius:50%;
   margin:50px auto;
   position: relative;
@@ -38,11 +38,11 @@ body {
 }
 
 .hand {
-  width:50%;
-  height:6px;
-  background:black;
+  width: 50%;
+  height: 6px;
+  background: white;
   position: absolute;
-  top:50%;
+  top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
@@ -50,7 +50,7 @@ body {
 }
 
 .second-hand {
-  background: red;
+  background: purple;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
